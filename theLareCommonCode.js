@@ -1,5 +1,4 @@
-
-var vRViewPlayer = function(elementIdName, options) {
-  console.log('create more than one');
-  return new VRView.Player(elementIdName, options);
+var vRViewPlayer = function("#vr", options) {
+console.log('Creating VR View Player');
+return new VRView.Player("#vr", options);
 }
