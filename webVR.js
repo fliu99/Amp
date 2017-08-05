@@ -16,6 +16,18 @@ myPicture.on('ready', function(event) {
     radius: 0.50,
     distance: 4
   });
+  myPicture.addHotspot('hotspot3', {
+    pitch: 0,
+    yaw: 90,
+    radius: 0.50,
+    distance: 4
+  });
+  myPicture.addHotspot('hotspot4', {
+    pitch: 0,
+    yaw: -90,
+    radius: 0.50,
+    distance: 4
+  });
 });
 myPicture.on('click',function(event){
   console.log('register all click events');
@@ -24,5 +36,11 @@ myPicture.on('click',function(event){
   }
   if (event.id == 'hotspot2'){
     alert('clicked hotspot2')
+  }
+  if (event.id == 'hotspot3'){
+    alert('clicked hotspot3')
+  }
+  if (event.id == 'hotspot4'){
+    alert('clicked hotspot4')
   }
 });
