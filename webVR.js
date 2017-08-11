@@ -41,6 +41,10 @@ myPicture.on('click',function(event){
     alert('clicked hotspot3')
   }
   if (event.id == 'hotspot4'){
-    alert('clicked hotspot4')
+    myPicture.setContent({
+      image: 'Image2.jpg',
+      is_stereo: true,
+      is_autopan_off: true,
+      });
   }
 });
