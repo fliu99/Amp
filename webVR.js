@@ -43,8 +43,7 @@ myPicture.on('click',function(event){
   if (event.id == 'hotspot4'){
     myPicture.setContent({
       image: 'Image2.jpg',
-      is_stereo: true,
-      is_autopan_off: true,
+      is_stereo: true
       });
   }
 });
