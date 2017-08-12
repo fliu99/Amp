@@ -49,8 +49,8 @@ myPicture.on('click',function(event){
       width: '100%'
     });
       myPicture.addHotspot('creating-hotspot-1D', {
-        pitch: 0,
-        yaw: 15,
+        pitch: 90,
+        yaw: 10,
         radius: 0.10,
         distance: 1
       });
@@ -62,7 +62,7 @@ myPicture.on('click',function(event){
       });
       myPicture.addHotspot('hotspot3D', {
         pitch: 0,
-        yaw: 45,
+        yaw: 15,
         radius: 0.10,
         distance: 1
       });
@@ -76,13 +76,13 @@ myPicture.on('click',function(event){
     myPicture.on('click',function(event){
       console.log('register all click events');
       if (event.id == 'creating-hotspot-1D'){
-        alert('Here at the beach I relax and have fun on a hot day!');
+        alert('A tree provides shade anytime of the year');
       }
       if (event.id == 'hotspot2D'){
-        alert('I use the highway as my method of transportation in order to get to my destination quickly.')
+        alert('Grass is the best natural cushion to sit down on.')
       }
       if (event.id == 'hotspot3D'){
-        alert('The shopping center is where I buy all my daily necessities and things I want.')
+        alert('Is this the sunrise or the sunset? You decide if this is the end or the beginning.')
       }
       if (event.id == 'hotspot4D'){
         location.reload();
