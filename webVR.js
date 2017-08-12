@@ -55,14 +55,14 @@ myPicture.on('click',function(event){
         distance: 1
       });
       myPicture.addHotspot('hotspot2D', {
-        pitch: 0,
+        pitch: -20,
         yaw: 90,
         radius: 0.10,
         distance: 1
       });
       myPicture.addHotspot('hotspot3D', {
-        pitch: 0,
-        yaw: 15,
+        pitch: -10,
+        yaw: 10,
         radius: 0.10,
         distance: 1
       });
