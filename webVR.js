@@ -43,7 +43,7 @@ myPicture.on('click',function(event){
   if (event.id == 'hotspot4'){
     myPicture.setContent({
       image: 'Image2.jpg',
-      is_stereo: true,
+      is_stereo: false,
       height: '100%',
       width: '100%'
       });
