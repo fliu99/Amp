@@ -85,12 +85,7 @@ myPicture.on('click',function(event){
         alert('The shopping center is where I buy all my daily necessities and things I want.')
       }
       if (event.id == 'hotspot4D'){
-        myPicture.setContent({
-          image: 'Image.jpg',
-          is_stereo: false,
-          height: '100%',
-          width: '100%'
-        });
+        location.reload();
   }
 });
 }
