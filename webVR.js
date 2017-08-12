@@ -44,7 +44,8 @@ myPicture.on('click',function(event){
     myPicture.setContent({
       image: 'Image2.jpg',
       is_stereo: true,
-      height: 100
+      height: '100%',
+      width: '100%'
       });
   }
 });
