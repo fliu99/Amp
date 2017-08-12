@@ -32,13 +32,13 @@ myPicture.on('ready', function(event) {
 myPicture.on('click',function(event){
   console.log('register all click events');
   if (event.id == 'creating-hotspot-1'){
-    alert('i bEen clIKed!');
+    alert('Here at the beach I relax and have fun on a hot day!');
   }
   if (event.id == 'hotspot2'){
-    alert('clicked hotspot2')
+    alert('I use the highway as my method of transportation in order to get to my destination quickly.')
   }
   if (event.id == 'hotspot3'){
-    alert('clicked hotspot3')
+    alert('The shopping center is where I buy all my daily necessities and things I want.')
   }
   if (event.id == 'hotspot4'){
     myPicture.setContent({
