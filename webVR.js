@@ -6,27 +6,27 @@ window.addEventListener('load',myPicture);
 myPicture.on('ready', function(event) {
   myPicture.addHotspot('creating-hotspot-1', {
     pitch: 0,
-    yaw: 10,
+    yaw: 15,
     radius: 0.10,
     distance: 1
   });
   myPicture.addHotspot('hotspot2', {
     pitch: 0,
-    yaw: 100,
-    radius: 0.50,
-    distance: 4
+    yaw: 90,
+    radius: 0.10,
+    distance: 1
   });
   myPicture.addHotspot('hotspot3', {
     pitch: 0,
     yaw: 45,
-    radius: 0.50,
-    distance: 4
+    radius: 0.10,
+    distance: 1
   });
   myPicture.addHotspot('hotspot4', {
     pitch: 0,
-    yaw: -110,
-    radius: 0.50,
-    distance: 4
+    yaw: -95,
+    radius: 0.10,
+    distance: 1
   });
 });
 myPicture.on('click',function(event){
