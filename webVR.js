@@ -101,6 +101,17 @@ myPicture.on('click',function(event){
         is_stereo: false,
         height: '100%',
         width: '100%'
-  });
+      });
+      myPicture.addHotspot('creating-hotspot-1E', {
+        pitch: 20,
+        yaw: 10,
+        radius: 0.10,
+        distance: 1
+      });
+      myPicture.on('click',function(event){
+        console.log('register all click events');
+        if (event.id == 'creating-hotspot-1E'){
+          location.reload();
+        }
 }
 });
