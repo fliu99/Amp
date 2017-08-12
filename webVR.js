@@ -28,6 +28,12 @@ myPicture.on('ready', function(event) {
     radius: 0.10,
     distance: 1
   });
+  myPicture.addHotspot('hotspot5', {
+    pitch: 0,
+    yaw: -180,
+    radius: 0.10,
+    distance: 1
+  });
 });
 
 myPicture.on('click',function(event){
@@ -88,5 +94,13 @@ myPicture.on('click',function(event){
         location.reload();
   }
 });
+}
+    if (event.id == 'hotspot5'){
+      myPicture.setContent({
+        image: 'Image3.jpg',
+        is_stereo: false,
+        height: '100%',
+        width: '100%'
+  });
 }
 });
