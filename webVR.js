@@ -49,7 +49,7 @@ myPicture.on('click',function(event){
       width: '100%'
     });
       myPicture.addHotspot('creating-hotspot-1D', {
-        pitch: 90,
+        pitch: 20,
         yaw: 10,
         radius: 0.10,
         distance: 1
