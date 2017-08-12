@@ -55,7 +55,7 @@ myPicture.on('click',function(event){
         distance: 1
       });
       myPicture.addHotspot('hotspot2D', {
-        pitch: -20,
+        pitch: -40,
         yaw: 90,
         radius: 0.10,
         distance: 1
