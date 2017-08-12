@@ -94,3 +94,4 @@ myPicture.on('click',function(event){
   }
 });
 }
+}
